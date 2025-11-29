@@ -9,11 +9,11 @@
 ## 方法二：作为插件使用
 
 具体方式如下：
-
-1. 打开 Chrome 浏览器，地址栏输入 `chrome://extensions/`。
-2. 右上角开启 **开发者模式** (Developer mode)。
-3. 点击左上角的 **加载已解压的扩展程序** (Load unpacked)。
-4. 选择本地创建的 `subtitle-blocker` 文件夹（里面包含content.js和manifest.json两个文件）。
+1. 先把content.js和manifest.json下载到本地，放到文件夹里，文件夹名称可以是`subtitle-blocker` 。
+2. 打开 Chrome 浏览器，地址栏输入 `chrome://extensions/`。
+3. 右上角开启 **开发者模式** (Developer mode)。
+4. 点击左上角的 **加载已解压的扩展程序** (Load unpacked)。
+5. 选择本地创建的 `subtitle-blocker` 文件夹（里面包含content.js和manifest.json两个文件）。
 
 ## 使用方法
 
