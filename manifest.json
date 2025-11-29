@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "视频字幕遮挡工具",
+    "version": "1.0",
+    "description": "按 Ctrl+B 画框遮挡字幕，按 Q 切换显示。",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.iyf.tv/play/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    
+    ]
+  }
